@@ -1,4 +1,12 @@
-ID,Name,Age,Mode,Gender
-1245123,sunjunlin,junlinkun@gmail.com,26,MICT,Male
+ID,Name,Email,Age,Mode,Gender,DayToFinish
+1245123,sunjunlin,junlinkun@gmail.com,25,MICT,Male,4
 MasterSpeed of User:sunjunlin
-ScoreRecord of User:sunjunlin
+Success Rate of User:sunjunlin
+1,3
+27,30
+55,64
+0.490909,0.46875
+ID,Name,Email,Age,Mode,Gender,DayToFinish
+111111111,kakak,junlinkun@gmail.com,21,HIITDDA,Female,1
+MasterSpeed of User:kakak
+Success Rate of User:kakak
