@@ -1,0 +1,977 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "EXP Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"Win32",
+				"Debug",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"Win32",
+				"Debug",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EXP Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EXP",
+				"Win32",
+				"Debug",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"Win32",
+				"DebugGame",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"Win32",
+				"DebugGame",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EXP Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EXP",
+				"Win32",
+				"DebugGame",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"Win32",
+				"Development",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"Win32",
+				"Development",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EXP Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EXP",
+				"Win32",
+				"Development",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"Win32",
+				"Shipping",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"Win32",
+				"Shipping",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EXP Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EXP",
+				"Win32",
+				"Shipping",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"Win32",
+				"Test",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"Win32",
+				"Test",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EXP Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EXP",
+				"Win32",
+				"Test",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"Win64",
+				"Debug",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"Win64",
+				"Debug",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EXP Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EXP",
+				"Win64",
+				"Debug",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"Win64",
+				"DebugGame",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"Win64",
+				"DebugGame",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EXP Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EXP",
+				"Win64",
+				"DebugGame",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"Win64",
+				"Development",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"Win64",
+				"Development",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EXP Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EXP",
+				"Win64",
+				"Development",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"Win64",
+				"Shipping",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"Win64",
+				"Shipping",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EXP Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EXP",
+				"Win64",
+				"Shipping",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"Win64",
+				"Test",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"Win64",
+				"Test",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EXP Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EXP",
+				"Win64",
+				"Test",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"IOS",
+				"Debug",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"IOS",
+				"Debug",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EXP IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EXP",
+				"IOS",
+				"Debug",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"IOS",
+				"DebugGame",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"IOS",
+				"DebugGame",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EXP IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EXP",
+				"IOS",
+				"DebugGame",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"IOS",
+				"Development",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"IOS",
+				"Development",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EXP IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EXP",
+				"IOS",
+				"Development",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"IOS",
+				"Shipping",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"IOS",
+				"Shipping",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EXP IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EXP",
+				"IOS",
+				"Shipping",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"IOS",
+				"Test",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXP",
+				"IOS",
+				"Test",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EXP IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXP IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EXP",
+				"IOS",
+				"Test",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXPEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXPEditor",
+				"Win64",
+				"Debug",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXPEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXPEditor",
+				"Win64",
+				"Debug",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EXPEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXPEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EXPEditor",
+				"Win64",
+				"Debug",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXPEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXPEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXPEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXPEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EXPEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXPEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EXPEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXPEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXPEditor",
+				"Win64",
+				"Development",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXPEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"EXPEditor",
+				"Win64",
+				"Development",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EXPEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		},
+		{
+			"label": "EXPEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"EXPEditor",
+				"Win64",
+				"Development",
+				"D:\\UEPROJECTS\\Exp-game\\EXP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_4.26"
+			}
+		}
+	]
+}

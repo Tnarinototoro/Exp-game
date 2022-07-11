@@ -1,0 +1,237 @@
+[
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\ElectronicNodes\\\\Source\\\\ElectronicNodes\\\\ElectronicNodes.Build.cs",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\ElectronicNodes.3.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\ElectronicNodes\\\\Source\\\\ElectronicNodes\\\\Private\\\\ElectronicNodes.cpp",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\ElectronicNodes.3.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\ElectronicNodes\\\\Source\\\\ElectronicNodes\\\\Private\\\\ENCommands.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\ElectronicNodes.3.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\ElectronicNodes\\\\Source\\\\ElectronicNodes\\\\Private\\\\ENConnectionDrawingPolicy.cpp",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\ElectronicNodes.3.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\ElectronicNodes\\\\Source\\\\ElectronicNodes\\\\Private\\\\ENConnectionDrawingPolicy.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\ElectronicNodes.3.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\ElectronicNodes\\\\Source\\\\ElectronicNodes\\\\Private\\\\ENPathDrawer.cpp",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\ElectronicNodes.3.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\ElectronicNodes\\\\Source\\\\ElectronicNodes\\\\Private\\\\ENPathDrawer.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\ElectronicNodes.3.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\ElectronicNodes\\\\Source\\\\ElectronicNodes\\\\Private\\\\Lib\\\\HotPatch.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\ElectronicNodes.3.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\ElectronicNodes\\\\Source\\\\ElectronicNodes\\\\Private\\\\Patch\\\\NodeFactoryPatch.cpp",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\ElectronicNodes.3.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\ElectronicNodes\\\\Source\\\\ElectronicNodes\\\\Private\\\\Patch\\\\NodeFactoryPatch.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\ElectronicNodes.3.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\ElectronicNodes\\\\Source\\\\ElectronicNodes\\\\Private\\\\Policies\\\\ENAnimGraphConnectionDrawingPolicy.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\ElectronicNodes.3.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\ElectronicNodes\\\\Source\\\\ElectronicNodes\\\\Private\\\\Policies\\\\ENBehaviorTreeConnectionDrawingPolicy.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\ElectronicNodes.3.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\ElectronicNodes\\\\Source\\\\ElectronicNodes\\\\Private\\\\Policies\\\\ENControlRigConnectionDrawingPolicy.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\ElectronicNodes.3.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\ElectronicNodes\\\\Source\\\\ElectronicNodes\\\\Private\\\\Popup\\\\ENUpdateConfig.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\ElectronicNodes.3.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\ElectronicNodes\\\\Source\\\\ElectronicNodes\\\\Private\\\\Popup\\\\ENUpdatePopup.cpp",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\ElectronicNodes.3.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\ElectronicNodes\\\\Source\\\\ElectronicNodes\\\\Private\\\\Popup\\\\ENUpdatePopup.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\ElectronicNodes.3.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\ElectronicNodes\\\\Source\\\\ElectronicNodes\\\\Public\\\\ElectronicNodes.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\ElectronicNodes.3.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\ElectronicNodes\\\\Source\\\\ElectronicNodes\\\\Public\\\\ElectronicNodesSettings.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\ElectronicNodes.3.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\GraphFormatter\\\\Source\\\\GraphFormatter\\\\GraphFormatter.Build.cs",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\GraphFormatter.8.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\GraphFormatter\\\\Source\\\\GraphFormatter\\\\Private\\\\EvenlyPlaceStrategy.cpp",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\GraphFormatter.8.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\GraphFormatter\\\\Source\\\\GraphFormatter\\\\Private\\\\EvenlyPlaceStrategy.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\GraphFormatter.8.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\GraphFormatter\\\\Source\\\\GraphFormatter\\\\Private\\\\FastAndSimplePositioningStrategy.cpp",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\GraphFormatter.8.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\GraphFormatter\\\\Source\\\\GraphFormatter\\\\Private\\\\FastAndSimplePositioningStrategy.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\GraphFormatter.8.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\GraphFormatter\\\\Source\\\\GraphFormatter\\\\Private\\\\FormatterCommands.cpp",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\GraphFormatter.8.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\GraphFormatter\\\\Source\\\\GraphFormatter\\\\Private\\\\FormatterCommands.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\GraphFormatter.8.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\GraphFormatter\\\\Source\\\\GraphFormatter\\\\Private\\\\FormatterDelegates.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\GraphFormatter.8.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\GraphFormatter\\\\Source\\\\GraphFormatter\\\\Private\\\\FormatterGraph.cpp",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\GraphFormatter.8.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\GraphFormatter\\\\Source\\\\GraphFormatter\\\\Private\\\\FormatterGraph.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\GraphFormatter.8.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\GraphFormatter\\\\Source\\\\GraphFormatter\\\\Private\\\\FormatterHacker.cpp",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\GraphFormatter.8.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\GraphFormatter\\\\Source\\\\GraphFormatter\\\\Private\\\\FormatterHacker.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\GraphFormatter.8.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\GraphFormatter\\\\Source\\\\GraphFormatter\\\\Private\\\\FormatterModule.cpp",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\GraphFormatter.8.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\GraphFormatter\\\\Source\\\\GraphFormatter\\\\Private\\\\FormatterSettings.cpp",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\GraphFormatter.8.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\GraphFormatter\\\\Source\\\\GraphFormatter\\\\Private\\\\FormatterSettings.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\GraphFormatter.8.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\GraphFormatter\\\\Source\\\\GraphFormatter\\\\Private\\\\FormatterStyle.cpp",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\GraphFormatter.8.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\GraphFormatter\\\\Source\\\\GraphFormatter\\\\Private\\\\FormatterStyle.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\GraphFormatter.8.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\GraphFormatter\\\\Source\\\\GraphFormatter\\\\Private\\\\IPositioningStrategy.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\GraphFormatter.8.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\GraphFormatter\\\\Source\\\\GraphFormatter\\\\Private\\\\PriorityPositioningStrategy.cpp",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\GraphFormatter.8.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\GraphFormatter\\\\Source\\\\GraphFormatter\\\\Private\\\\PriorityPositioningStrategy.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\GraphFormatter.8.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\GraphFormatter\\\\Source\\\\GraphFormatter\\\\Private\\\\PrivateAccessor.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\GraphFormatter.8.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Plugins\\\\GraphFormatter\\\\Source\\\\GraphFormatter\\\\Public\\\\FormatterModule.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\GraphFormatter.8.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Source\\\\EXP\\\\DataStoringFuncLib.cpp",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\EXP.188.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Source\\\\EXP\\\\DataStoringFuncLib.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\EXP.188.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Source\\\\EXP\\\\EXP.Build.cs",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\EXP.188.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Source\\\\EXP\\\\EXP.cpp",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\EXP.188.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Source\\\\EXP\\\\EXP.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\EXP.188.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Source\\\\EXP\\\\MyClass.cpp",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\EXP.188.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\UEPROJECTS\\\\Exp-game\\\\Source\\\\EXP\\\\MyClass.h",
+		"command": "cl.exe @\"D:\\UEPROJECTS\\Exp-game\\.vscode\\compileCommands_Default\\EXP.188.rsp\"",
+		"directory": "E:\\UE_4.26\\Engine\\Source"
+	}
+]
